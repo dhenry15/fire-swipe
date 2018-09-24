@@ -54,8 +54,9 @@ void draw() {
     textFont(myFont);
     textSize(18);
     text("Everytime you score past the balls, the balls will speed up.", 50, 60);
-    text("Can you reach fifty?", 50, 90);
-    text("Swipe left to start.", 50, 120);
+    text("Swipe multiple times to speed up the ice block.", 50, 90);
+    text("Can you reach fifty?", 50, 120);
+    text("Swipe left to start.", 50, 150);
   } else {
     textSize(20);
     text("lives: "+lives, 50, 50);
