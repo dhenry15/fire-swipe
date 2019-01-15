@@ -165,7 +165,7 @@ void highscore(){
   table.removeRow(0);
   TableRow row = table.addRow();
   row.setInt("highscore", textscore);
-  saveTable(table,"data/highscore.csv");
+  saveTable(table,"highscore.csv");
   loadData();
  }
 }
